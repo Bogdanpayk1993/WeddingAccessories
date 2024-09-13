@@ -1,0 +1,17 @@
+2024-09-13 14:35:18 - PHP Notice:  date_default_timezone_set(): Timezone ID 'Europe/Kyiv' is invalid in C:\wamp64\www\WeddingAccessories\catalog\controller\startup\startup.php on line 37
+2024-09-13 14:35:31 - PHP Notice:  date_default_timezone_set(): Timezone ID 'Europe/Kyiv' is invalid in C:\wamp64\www\WeddingAccessories\admin\controller\startup\startup.php on line 17
+2024-09-13 14:35:40 - PHP Notice:  date_default_timezone_set(): Timezone ID 'Europe/Kyiv' is invalid in C:\wamp64\www\WeddingAccessories\admin\controller\startup\startup.php on line 17
+2024-09-13 14:35:40 - PHP Notice:  date_default_timezone_set(): Timezone ID 'Europe/Kyiv' is invalid in C:\wamp64\www\WeddingAccessories\admin\controller\startup\startup.php on line 17
+2024-09-13 14:35:40 - PHP Notice:  date_default_timezone_set(): Timezone ID 'Europe/Kyiv' is invalid in C:\wamp64\www\WeddingAccessories\admin\controller\startup\startup.php on line 17
+2024-09-13 14:35:40 - PHP Notice:  date_default_timezone_set(): Timezone ID 'Europe/Kyiv' is invalid in C:\wamp64\www\WeddingAccessories\admin\controller\startup\startup.php on line 17
+2024-09-13 14:35:55 - PHP Notice:  date_default_timezone_set(): Timezone ID 'Europe/Kyiv' is invalid in C:\wamp64\www\WeddingAccessories\admin\controller\startup\startup.php on line 17
+2024-09-13 14:36:03 - PHP Notice:  date_default_timezone_set(): Timezone ID 'Europe/Kyiv' is invalid in C:\wamp64\www\WeddingAccessories\admin\controller\startup\startup.php on line 17
+2024-09-13 14:36:18 - PHP Notice:  date_default_timezone_set(): Timezone ID 'Europe/Kyiv' is invalid in C:\wamp64\www\WeddingAccessories\admin\controller\startup\startup.php on line 17
+2024-09-13 14:36:28 - PHP Notice:  date_default_timezone_set(): Timezone ID 'Europe/Kyiv' is invalid in C:\wamp64\www\WeddingAccessories\admin\controller\startup\startup.php on line 17
+2024-09-13 14:36:28 - PHP Notice:  date_default_timezone_set(): Timezone ID 'Europe/Kyiv' is invalid in C:\wamp64\www\WeddingAccessories\admin\controller\startup\startup.php on line 17
+2024-09-13 14:36:28 - PHP Notice:  date_default_timezone_set(): Timezone ID 'Europe/Kyiv' is invalid in C:\wamp64\www\WeddingAccessories\admin\controller\startup\startup.php on line 17
+2024-09-13 14:36:28 - PHP Notice:  date_default_timezone_set(): Timezone ID 'Europe/Kyiv' is invalid in C:\wamp64\www\WeddingAccessories\admin\controller\startup\startup.php on line 17
+2024-09-13 14:36:37 - PHP Notice:  date_default_timezone_set(): Timezone ID 'Europe/Kyiv' is invalid in C:\wamp64\www\WeddingAccessories\admin\controller\startup\startup.php on line 17
+2024-09-13 14:37:13 - PHP Notice:  date_default_timezone_set(): Timezone ID 'Europe/Kyiv' is invalid in C:\wamp64\www\WeddingAccessories\admin\controller\startup\startup.php on line 17
+2024-09-13 14:37:13 - PHP Notice:  date_default_timezone_set(): Timezone ID 'Europe/Kyiv' is invalid in C:\wamp64\www\WeddingAccessories\admin\controller\startup\startup.php on line 17
+2024-09-13 14:38:07 - PHP Notice:  date_default_timezone_set(): Timezone ID 'Europe/Kyiv' is invalid in C:\wamp64\www\WeddingAccessories\admin\controller\startup\startup.php on line 17
