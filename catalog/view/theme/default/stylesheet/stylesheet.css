@@ -78,7 +78,6 @@ select.form-control, textarea.form-control, input[type="text"].form-control, inp
 span.hidden-xs, span.hidden-sm, span.hidden-md, span.hidden-lg {
 	display: inline;
 }
-
 .nav-tabs {
 	margin-bottom: 15px;
 }
@@ -96,7 +95,6 @@ div.required .control-label:before {
 	color: black;
 	background-color: rgba(0, 0, 0, 0.1);
 }
-
 /* top */
 #top {
 	padding: 4px 0px 3px 0;
@@ -135,7 +133,7 @@ div.required .control-label:before {
 }
 #top .btn-link strong {
 	font-size: 14px;
-        line-height: 14px;
+    line-height: 14px;
 }
 #top-links {
 	padding-top: 6px;
@@ -231,31 +229,32 @@ div.required .control-label:before {
 	min-height: 15px;
 	background-color: transparent;
 }
-#menu .nav > li > a:hover, #menu .nav > li.open > a {
+#menu .nav > li > a:hover {
 	background-color: rgba(0, 0, 0, 0.1);
 }
 #menu .dropdown-menu {
-	width: 13vw;
+	width: 13.5vw;
 	padding-bottom: 0;
-	background-color: rgba(253, 225, 221, 0.9);
 }
 #menu .dropdown-inner {
+	min-width: 100%;
 	display: table;
 }
 #menu .dropdown-inner ul {
+	min-width: 100%;
 	display: table-cell;
 }
-#menu .dropdown-inner a {
-	min-width: 12.9vw;
+#menu .dropdown-inner li {
+	width: 100%;
+}
+#menu .dropdown-inner li a {
+	min-width: 100%;
 	display: block;
 	padding: 3px 20px;
 	clear: both;
 	line-height: 20px;
 	color: #333333;
 	font-size: 12px;
-}
-#menu .dropdown-inner li a:hover {
-	color: black;
 }
 #menu .see-all {
 	display: block;
