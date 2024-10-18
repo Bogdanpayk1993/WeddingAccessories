@@ -95,6 +95,9 @@ div.required .control-label:before {
 	color: black;
 	background-color: rgba(0, 0, 0, 0.1);
 }
+.quotation-marks {
+	font-style: italic;
+}
 /* top */
 #top {
 	padding: 4px 0px 3px 0;
@@ -278,7 +281,7 @@ div.required .control-label:before {
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 40px;
-	color: #fff;
+	color: black;
 	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
 }
 #menu .btn-navbar {
@@ -304,32 +307,35 @@ div.required .control-label:before {
 }
 @media (max-width: 767px) {
 	#menu {
+		border: 0.1vw solid rgba(0, 0, 0, 0.15);
 		border-radius: 4px;
+		background-color: #fde1dd;
+		z-index: 1;
+	}
+	#menu .dropdown .dropdown-toggle {
+		padding-bottom: 0px;
 	}
 	#menu div.dropdown-inner > ul.list-unstyled {
 		display: block;
 	}
 	#menu div.dropdown-menu {
+		width: 100%;
 		margin-left: 0 !important;
 		padding-bottom: 10px;
 		background-color: rgba(0, 0, 0, 0.1);
 	}
 	#menu .dropdown-inner {
 		display: block;
+		border-top: 1px solid rgba(0, 0, 0, 0.2);
 	}
 	#menu .dropdown-inner a {
 		width: 100%;
-		color: #fff;
-	}
-	#menu .dropdown-menu a:hover,
-	#menu .dropdown-menu ul li a:hover {
-		background: rgba(0, 0, 0, 0.1);
 	}
 	#menu .see-all {
 		margin-top: 0;
-		border: none;
+		padding-top: 5px;
+		padding-bottom: 0px;
 		border-radius: 0;
-		color: #fff;
 	}
 }
 /* content */
