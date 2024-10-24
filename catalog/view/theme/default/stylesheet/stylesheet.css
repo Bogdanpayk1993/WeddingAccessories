@@ -5,10 +5,10 @@ body {
 	font-size: 12px;
 	line-height: 20px;
 	width: 100%;
-	background-color: #fde1dd;
+	background-image: url(../image/Fon.jpg);
 }
 body #header {
-	background: url(../image/Rings\ 5.jpg) 50% /cover no-repeat;
+	background: url(../image/Rings.jpg) 50% /cover no-repeat;
 }
 body #header > .container:nth-child(1n) {
 	height: 25vw;
@@ -93,7 +93,6 @@ div.required .control-label:before {
 }
 .dropdown-menu li > a:hover {
 	text-decoration: none;
-	color: black;
 	background-color: rgba(0, 0, 0, 0.1);
 }
 .quotation-marks {
@@ -230,7 +229,7 @@ div.required .control-label:before {
 }
 
 #menu .nav > li > a {
-	color: black;
+	color: #666;
 	text-shadow: 0 1px 0 lightgray;
 	padding: 10px 15px 10px 15px;
 	min-height: 15px;
@@ -260,7 +259,7 @@ div.required .control-label:before {
 	padding: 3px 20px;
 	clear: both;
 	line-height: 20px;
-	color: #333333;
+	color: #666;
 	font-size: 12px;
 }
 #menu .see-all {
@@ -272,6 +271,7 @@ div.required .control-label:before {
 	-webkit-border-radius: 0 0 4px 4px;
 	-moz-border-radius: 0 0 4px 4px;
 	border-radius: 0 0 3px 3px;
+	color: #666;
 	font-size: 12px;
 }
 #menu .see-all:hover, #menu .see-all:focus {
@@ -341,14 +341,14 @@ div.required .control-label:before {
 	min-height: 600px;
 }
 #content .panel {
-	border-color: #fcdcd7;
-	background-color: #fcdcd7;
+	border-color: rgba(253, 225, 221, 0.4);
+	background-color: rgba(253, 225, 221, 0.4);
 	-webkit-box-shadow: none;
 	box-shadow: none; 
 } 
 .well {
-	border-color: #fcdcd7;
-	background-color: #fcdcd7;
+	border-color: rgba(253, 225, 221, 0.4);
+	background-color: rgba(253, 225, 221, 0.4);
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
@@ -356,6 +356,7 @@ div.required .control-label:before {
 footer {
 	color: black;
 	text-shadow: 0 1px 0 lightgray;
+	background-color: rgba(253, 225, 221, 0.4);
 }
 
 footer hr {
@@ -366,16 +367,13 @@ footer a {
 	text-shadow: 0 1px 0 lightgray;
 }
 footer a:hover {
-	color: #fff;
+	color: #666;
 }
 footer h5 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 	font-weight: bold;
 	color: black;
-}
-footer .row {
-	border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 /* alert */
 .alert {
@@ -385,16 +383,18 @@ footer .row {
 .breadcrumb {
 	margin: 0 0 20px 0;
 	padding: 8px 0;
-	background-color: #fcdcd7; 
+	background-color: rgba(253, 225, 221, 0.4); 
 }
 .breadcrumb i {
 	font-size: 15px;
 }
 .breadcrumb > li {
-	text-shadow: 0 1px 0 #FFF;
 	padding: 0 20px;
 	position: relative;
 	white-space: nowrap;
+}
+.breadcrumb > li a {
+	color: #666;
 }
 .breadcrumb > li + li:before {
 	content: '';
@@ -408,8 +408,8 @@ footer .row {
 	right: -5px;
 	width: 26px;
 	height: 26px;
-	border-right: 1px solid #fde1dd;
-	border-bottom: 1px solid #fde1dd;
+	border-right: 1px solid rgba(0, 0, 0, 0.25);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 	-webkit-transform: rotate(-45deg);
 	-moz-transform: rotate(-45deg);
 	-o-transform: rotate(-45deg);
@@ -571,18 +571,18 @@ footer .row {
 }
 /* list group */
 .list-group-item {
-	background-color: #fcdcd7;
+	background-color: rgba(253, 225, 221, 0.4);
 }
 .list-group a {
-	border: 1px solid #fde1dd;
 	color: #888888;
+	border: 0px;
+	margin: 0px;
 	padding: 8px 12px;
 }
 .list-group a.active, .list-group a.active:hover, .list-group a:hover {
 	color: #444444;
 	background: rgba(0, 0, 0, 0.1);
-	border: 1px solid #fde1dd;
-	text-shadow: 0 1px 0 #FFF;
+	border: 0px
 }
 /* carousel */
 .carousel-caption {
